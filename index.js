@@ -35,5 +35,5 @@ for(i = 0; i < privacypolicy.length; i++){
 	});
 
 	// write the MIDI file 🎵🎵🎵
-	scribble.midi(midiData, 'section' + i.toString() + '.mid');
+	scribble.midi(midiData, './midi/section' + i.toString() + '.mid');
 }
